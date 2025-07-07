@@ -8,26 +8,39 @@
 </head>
 <body>
 
-    <!--Slider-->
-    <input type="range" class="slider" id="slider" oninput="slider()" value="0" min="0" max="10">
+    <div class="sliderContainer">
+        <div class="sliderNumbers">
+            <span class="number" data-value="0">0</span>
+            <span class="number" data-value="-1">-1</span>
+            <span class="number" data-value="-2">-2</span>
+            <span class="number" data-value="-3">-3</span>
+            <span class="number" data-value="-4">-4</span>
+            <span class="number" data-value="-5">-5</span>
+            <span class="number" data-value="-6">-6</span>
+            <span class="number" data-value="-7">-7</span>
+            <span class="number" data-value="-8">-8</span>
+            <span class="number" data-value="-9">-9</span>
+            <span class="number" data-value="-10">-10</span>
+        </div>
+        
+        <input type="range" class="slider" id="slider" oninput="slider()" value="0" min="0" max="10" step="1">
+    </div>
 
-
-    <!--images-->
-    <img src="assets/sim(0).webp" id="s0" alt="Myopia 0" style="display: block;">
-    <img src="assets/sim(1).webp" id="s1"alt="Myopia 1" style="display: none;">
-    <img src="assets/sim(2).webp" id="s2" alt="Myopia 2" style="display: none;">
-    <img src="assets/sim(3).webp" id="s3" alt="Myopia 3" style="display: none;">
-    <img src="assets/sim(4).webp" id="s4" alt="Myopia 4" style="display: none;">
-    <img src="assets/sim(5).webp" id="s5" alt="Myopia 5" style="display: none;">
-    <img src="assets/sim(6).webp" id="s6" alt="Myopia 6" style="display: none;">
-    <img src="assets/sim(7).webp" id="s7" alt="Myopia 7" style="display: none;">
-    <img src="assets/sim(8).webp" id="s8" alt="Myopia 8" style="display: none;">
-    <img src="assets/sim(9).webp" id="s9" alt="Myopia 9" style="display: none;">
-    <img src="assets/sim(10).webp" id="s10" alt="Myopia 10" style="display: none;">
-
-
+   <!--images-->
+    <div class="fullscreenImg">
+        <img src="assets/sim(0).webp" id="s0" alt="Myopia 0" style="display: block;">
+        <img src="assets/sim(1).webp" id="s1" alt="Myopia 1" style="display: none;">
+        <img src="assets/sim(2).webp" id="s2" alt="Myopia 2" style="display: none;">
+        <img src="assets/sim(3).webp" id="s3" alt="Myopia 3" style="display: none;">
+        <img src="assets/sim(4).webp" id="s4" alt="Myopia 4" style="display: none;">
+        <img src="assets/sim(5).webp" id="s5" alt="Myopia 5" style="display: none;">
+        <img src="assets/sim(6).webp" id="s6" alt="Myopia 6" style="display: none;">
+        <img src="assets/sim(7).webp" id="s7" alt="Myopia 7" style="display: none;">
+        <img src="assets/sim(8).webp" id="s8" alt="Myopia 8" style="display: none;">
+        <img src="assets/sim(9).webp" id="s9" alt="Myopia 9" style="display: none;"><!--Tannie Jax (4.75)-->
+        <img src="assets/sim(10).webp" id="s10" alt="Myopia 10" style="display: none;">
+    </div>
     
-
     <script src="script.js"></script>
 </body>
 </html>
