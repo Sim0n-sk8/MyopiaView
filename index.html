@@ -9,9 +9,13 @@
 <body>
 
   <h1 class="title">MYOPIA VISION SIMULATOR</h1>
+
+  <div class="buttonGroup">
   <button class="schoolBtn" id="schoolBtn">Classroom</button>
   <button class="roadBtn" id="roadBtn">Road</button>
-   <button class="playBtn" id="playBtn">Playground</button>
+  <button class="playBtn" id="playBtn">Playground</button>
+</div>
+  
 
     <div class="sliderContainer">
         <div class="sliderNumbers">
@@ -25,7 +29,7 @@
             <span class="number" data-value="-7">-7</span>
             <span class="number" data-value="-8">-8</span>
             <span class="number" data-value="-9">-9</span>
-            <span class="number" data-value="-10">-10</span> <button class="button" id="schoolBtn">Classroom</button>
+            <span class="number" data-value="-10">-10</span> 
         </div>
         
         <input type="range" class="slider" id="slider" oninput="slider()" value="0" min="0" max="10" step="1">
@@ -76,7 +80,8 @@
         <img src="assets/play10.webp" id="p10" alt="Myopia 0" style="display: none;">
        
     </div>
-    
+
+  
     <script src="script.js"></script>
 </body>
 </html>
