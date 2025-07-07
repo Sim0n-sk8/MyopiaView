@@ -5,7 +5,7 @@ function slider() {
   
   // Update images
   for (let i = 0; i <= 10; i++) {
-    const img = document.getElementById("s" + i);
+    const img = document.getElementById("s" + i);//value needs to change based on clicked button school is "s" road is "r" play is "p"
     if (img) {
       img.style.display = (i == value) ? "block" : "none";
     }
@@ -27,7 +27,11 @@ function slider() {
   const thumbColor = getThumbColor(parseInt(value));
   sliderElement.style.setProperty('--thumb-color', thumbColor);
 }
-
-
 // Initialize
 slider();
+
+function button() {
+   const school = document.getElementById("schoolBtn");
+   const road = document.getElementById("roadbtn");
+   const play = document.getElementById("playBtn")
+}
